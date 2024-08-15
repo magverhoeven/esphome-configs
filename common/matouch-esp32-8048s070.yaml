@@ -108,8 +108,8 @@ display:
     update_interval: never
     auto_clear_enabled: false # takes 2.8 seconds to clear the display
     dimensions:
-      width: 800
-      height: 480
+      width: 1024
+      height: 600
     de_pin: 40
     hsync_pin: 39
     vsync_pin: 41
