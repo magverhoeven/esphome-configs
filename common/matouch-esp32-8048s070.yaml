@@ -114,14 +114,23 @@ display:
     hsync_pin: 39
     vsync_pin: 41
     pclk_pin: 42
-    pclk_frequency: 16MHz
-    pclk_inverted: True
-    hsync_pulse_width: 30
-    hsync_front_porch: 210
-    hsync_back_porch: 16
-    vsync_pulse_width: 13
-    vsync_front_porch: 22
-    vsync_back_porch: 10
+    #pclk_frequency: 16MHz #16000000.0
+    #pclk_inverted: true
+    #invert_colors: false
+    
+    #hsync_pulse_width: 30
+    #hsync_back_porch: 16
+    #hsync_front_porch: 210
+    #vsync_pulse_width: 13
+    #vsync_back_porch: 10
+    #vsync_front_porch: 22
+    
+    #hsync_pulse_width: 48
+    #hsync_back_porch: 128
+    #hsync_front_porch: 40
+    #vsync_pulse_width: 3
+    #vsync_back_porch: 45
+    #vsync_front_porch: 13
     data_pins:
       red:
         - 45        #r1
