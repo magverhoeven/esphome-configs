@@ -59,7 +59,7 @@ preferences:
 output:
   - platform: ledc
     pin: 10
-    frequency: 1220
+    frequency: 1000
     id: gpio_backlight_pwm
 
 light:
@@ -106,7 +106,7 @@ display:
     color_order: RGB
     invert_colors: True
     update_interval: never
-    auto_clear_enabled: false # takes 2.8 seconds to clear the display
+    auto_clear_enabled: true # takes 2.8 seconds to clear the display
     dimensions:
       width: 1024
       height: 600
