@@ -74,8 +74,8 @@ light:
 #-------------------------------------------
 i2c:
   - id: bus_a
-    sda: GPIO19
-    scl: GPIO20
+    sda: GPIO17
+    scl: GPIO18
     
 touchscreen:
   platform: gt911
