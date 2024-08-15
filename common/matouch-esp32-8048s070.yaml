@@ -112,13 +112,21 @@ display:
     dimensions:
       width: 1024
       height: 600
-    de_pin: 42
-    hsync_pin: 40
+    de_pin: 40
+    hsync_pin: 39
     vsync_pin: 41
-    #pclk_pin: 14
-    # pclk_frequency: 15000000.0
+    pclk_pin: 42
+    pclk_frequency: 16000000
     #pclk_inverted: true
     #invert_colors: false
+    hsync_polarity: 1
+    hsync_front_porch: 40
+    hsync_pulse_width: 48
+    hsync_back_porch: 128
+    vsync_polarity: 1
+    vsync_front_porch: 13
+    vsync_pulse_width: 3
+    vsync_back_porch: 45
     
     #hsync_pulse_width: 30
     #hsync_back_porch: 16
@@ -133,17 +141,24 @@ display:
     #vsync_back_porch: 45
     #vsync_front_porch: 13
 
+
     data_pins:
       red:
-        - 16        #r1
-        - 17        #r2
-        - 18        #r3
+        - 45        #r0
+        - 48        #r1
+        - 47        #r2
+        - 21        #r3
+        - 14        #r4
       green:
-        - 24       #g0
-        - 25       #g1
-        - 31       #g2
+        - 5       #g0
+        - 6       #g1
+        - 7       #g2
+        - 15      #g3
+        - 16      #g4
+        - 4       #g5
       blue:
-        - 32        #b1
-        - 33        #b2
-        - 34        #b3
-        - 35        #b4
+        - 8        #b0
+        - 3        #b1
+        - 46       #b2
+        - 9        #b3
+        - 1        #b4
