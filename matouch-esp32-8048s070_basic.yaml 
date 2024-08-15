@@ -1,5 +1,5 @@
 substitutions:
-  name: "MaTouch 7inch 1024x768"
+  name: "matouch-7inch"
   friendly_name: "MaTouc1024"
   device_description: "MaTouch ESP32-S3-8048S070 1024px X 758px Smart Screen"
   project_name: "MaTouch.ESP32_S3_8048S070"
@@ -57,7 +57,7 @@ packages:
     url: https://github.com/magverhoeven/esphome-configs
     ref: main # optional
     files: [common/color.yaml,
-                common/sunton-esp32-8048s070.yaml
+                common/matouch-esp32-8048s070.yaml
     ]    
 
 time:
