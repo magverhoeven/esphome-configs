@@ -11,7 +11,7 @@ esphome:
   platformio_options:
     build_flags: "-DBOARD_HAS_PSRAM"
     board_build.esp-idf.memory_type: qio_opi
-    board_build.flash_mode: dio
+    board_build.flash_mode: qio
     board_upload.maximum_ram_size: 524288
     
 esp32:
@@ -151,4 +151,3 @@ display:
         - 46         #b3
         - 9         #b4
         - 1         #b5
-    show_test_card: true
