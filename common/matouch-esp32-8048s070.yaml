@@ -106,7 +106,7 @@ display:
     color_order: RGB
     invert_colors: True
     update_interval: never
-    auto_clear_enabled: true # takes 2.8 seconds to clear the display
+    auto_clear_enabled: False # takes 2.8 seconds to clear the display
     dimensions:
       width: 1024
       height: 600
@@ -151,3 +151,4 @@ display:
         - 46         #b3
         - 9         #b4
         - 1         #b5
+    show_test_card: true
