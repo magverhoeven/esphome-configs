@@ -108,6 +108,7 @@ display:
     invert_colors: True
     update_interval: never
     auto_clear_enabled: False # takes 2.8 seconds to clear the display
+    rotation: 0
     dimensions:
       width: 1024
       height: 600
