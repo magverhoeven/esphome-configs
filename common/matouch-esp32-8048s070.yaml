@@ -112,8 +112,8 @@ display:
     dimensions:
       width: 800
       height: 480
-    de_pin: 40
-    hsync_pin: 39
+    de_pin: 42
+    hsync_pin: 40
     vsync_pin: 41
     pclk_pin: 42
     pclk_frequency: 15000000.0
