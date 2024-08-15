@@ -58,7 +58,7 @@ preferences:
 #-------------------------------------------
 output:
   - platform: ledc
-    pin: 2
+    pin: 10
     frequency: 1220
     id: gpio_backlight_pwm
 
