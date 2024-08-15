@@ -114,7 +114,7 @@ display:
     hsync_pin: 39
     vsync_pin: 41
     pclk_pin: 42
-    pclk_frequency: 15MHz #16000000.0
+    pclk_frequency: 15000000.0
     #pclk_inverted: true
     #invert_colors: false
     
