@@ -115,7 +115,7 @@ display:
     de_pin: 42
     hsync_pin: 40
     vsync_pin: 41
-    pclk_pin: 42
+    pclk_pin: 14
     pclk_frequency: 15000000.0
     #pclk_inverted: true
     #invert_colors: false
@@ -135,21 +135,15 @@ display:
 
     data_pins:
       red:
-        - 45        #r1
-        - 48        #r2
-        - 47        #r3
-        - 21        #r4
-        - 14        #r5
+        - 16        #r1
+        - 17        #r2
+        - 18        #r3
       green:
-        - 5         #g0
-        - 6        #g1
-        - 7         #g2
-        - 15         #g3
-        - 16        #g4
-        - 4         #g5
+        - 24         #g0
+        - 25       #g1
+        - 31         #g2
       blue:
-        - 8        #b1
-        - 3         #b2
-        - 46         #b3
-        - 9         #b4
-        - 1         #b5
+        - 32        #b1
+        - 33         #b2
+        - 34         #b3
+        - 35         #b4
