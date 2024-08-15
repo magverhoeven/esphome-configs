@@ -110,8 +110,8 @@ display:
     auto_clear_enabled: False # takes 2.8 seconds to clear the display
     rotation: 0
     dimensions:
-      width: 800
-      height: 480
+      width: 1024
+      height: 600
     de_pin: 42
     hsync_pin: 40
     vsync_pin: 41
@@ -139,11 +139,11 @@ display:
         - 17        #r2
         - 18        #r3
       green:
-        - 24         #g0
+        - 24       #g0
         - 25       #g1
-        - 31         #g2
+        - 31       #g2
       blue:
         - 32        #b1
-        - 33         #b2
-        - 34         #b3
-        - 35         #b4
+        - 33        #b2
+        - 34        #b3
+        - 35        #b4
