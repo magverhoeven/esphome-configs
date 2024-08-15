@@ -30,7 +30,7 @@ esp32:
       CONFIG_SPIRAM_RODATA: y
 
 psram:
-  mode: octal
+  mode: quad
   speed: 80MHz
 
 preferences:
