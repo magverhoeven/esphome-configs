@@ -103,6 +103,7 @@ touchscreen:
 #-------------------------------------------
 display:
   - platform: ili9xxx
+    model: WSPICOLCD
     id: my_display
     color_order: RGB
     invert_colors: True
