@@ -102,7 +102,7 @@ touchscreen:
 # Display EK9716
 #-------------------------------------------
 display:
-  - platform: rpi_dpi_rgb
+  - platform: ili9xxx
     id: my_display
     color_order: RGB
     invert_colors: True
