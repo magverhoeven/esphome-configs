@@ -103,7 +103,6 @@ touchscreen:
 #-------------------------------------------
 display:
   - platform: ili9xxx
-    model: WSPICOLCD
     id: my_display
     color_order: RGB
     invert_colors: True
@@ -118,6 +117,10 @@ display:
     vsync_pin: 41
     pclk_pin: 42
     pclk_frequency: 16000000
+    spi:
+    clk_pin: 14
+    mosi_pin: 11
+    miso_pin: 13
     #pclk_inverted: true
     #invert_colors: false
     #hsync_polarity: 1
