@@ -58,7 +58,7 @@ preferences:
 # Backlight
 #-------------------------------------------
 output:
-  - platform: ledc
+  - platform: tft
     pin: 10
     frequency: 1000
     id: gpio_backlight_pwm
