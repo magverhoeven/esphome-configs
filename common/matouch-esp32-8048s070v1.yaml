@@ -107,8 +107,8 @@ display:
     color_order: RGB
     invert_colors: True
     update_interval: 5s
-    auto_clear_enabled: False # takes 2.8 seconds to clear the display
-    rotation: 90
+    auto_clear_enabled: True # takes 2.8 seconds to clear the display
+    rotation: 0
     dimensions:
       width: 1024 
       height: 600
