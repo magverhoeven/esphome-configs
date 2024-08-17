@@ -106,8 +106,8 @@ display:
     id: my_display
     color_order: RGB
     invert_colors: True
-    update_interval: 5s
-    auto_clear_enabled: True # takes 2.8 seconds to clear the display
+    update_interval: never
+    auto_clear_enabled: false # takes 2.8 seconds to clear the display
     rotation: 0
     dimensions:
       width: 1024 
@@ -116,7 +116,7 @@ display:
     hsync_pin: 39
     vsync_pin: 41
     pclk_pin: 42
-    pclk_frequency: 16000000
+    #pclk_frequency: 16000000
     #pclk_inverted: true
     #invert_colors: false
     #hsync_polarity: 1
@@ -162,3 +162,4 @@ display:
         - 46       #b2
         - 9        #b3
         - 1        #b4
+    show_test_card: true
