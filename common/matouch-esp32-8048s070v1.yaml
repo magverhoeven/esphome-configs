@@ -70,6 +70,7 @@ light:
     output: gpio_backlight_pwm
     name: Display Backlight
     id: back_light
+    brightness: 0.8
     restore_mode: ALWAYS_ON
 
 #-------------------------------------------
