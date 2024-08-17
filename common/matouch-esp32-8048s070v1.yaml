@@ -31,7 +31,7 @@ esp32:
 
 psram:
   mode: octal
-  speed: 120MHz
+  speed: 80MHz
 
 preferences:
   flash_write_interval: 1min      
