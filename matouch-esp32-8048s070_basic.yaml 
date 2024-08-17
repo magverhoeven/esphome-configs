@@ -58,7 +58,7 @@ packages:
     ref: main # optional
     refresh: 0min
     files: [common/color.yaml,
-                common/matouch-esp32-8048s070.yaml
+                common/matouch-esp32-8048s070v1.yaml
     ]    
 
 time:
