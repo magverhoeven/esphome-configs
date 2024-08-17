@@ -30,8 +30,8 @@ esp32:
       CONFIG_SPIRAM_RODATA: y
 
 psram:
-  mode: quad
-  speed: 40MHz
+  mode: octal
+  speed: 120MHz
 
 preferences:
   flash_write_interval: 1min      
