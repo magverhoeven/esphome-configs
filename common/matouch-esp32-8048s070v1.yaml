@@ -107,7 +107,7 @@ display:
   - platform: rpi_dpi_rgb
     id: my_display
     color_order: RGB
-    invert_colors: True
+    invert_colors: false
     update_interval: 2s
     auto_clear_enabled: false # takes 2.8 seconds to clear the display
     rotation: 0
@@ -147,4 +147,3 @@ display:
         - 46       #b2
         - 9        #b3
         - 1        #b4
-    show_test_card: true
