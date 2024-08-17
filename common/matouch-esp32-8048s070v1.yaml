@@ -15,7 +15,7 @@ esphome:
     board_build.flash_size: 16MB
     board_upload.maximum_ram_size: 327680
     board_upload.maximum_size: 16777216
-    board_build.partitions: "custom_partitions_3584.csv"
+    board_build.partitions: "/config/esphome/custom_partitions_3584.csv"
     
 esp32:
   board: esp32-s3-devkitc-1
