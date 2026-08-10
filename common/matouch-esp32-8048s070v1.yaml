@@ -105,8 +105,7 @@ touchscreen:
 #-------------------------------------------
 display:
   - platform: mipi_rgb
-    model: custom
-    init_sequence: []
+    model: RPI
     id: my_display
     color_order: RGB
     invert_colors: true
