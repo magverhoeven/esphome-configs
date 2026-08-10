@@ -1,10 +1,10 @@
-# Sunton ESP32-S3-8048S070 480px X 800px Smart Screen
+# MaTouch/Sunton ESP32-S3 1024px X 600px Smart Screen
 # Hardware configuration file
 
 esphome:
   name: "${name}"
   friendly_name: "${friendly_name}"
-  min_version: 2024.7.0  
+  min_version: 2025.9.0
   project:
     name: "${project_name}"
     version: "${project_version}"    
@@ -104,10 +104,12 @@ touchscreen:
 # Display EK9716
 #-------------------------------------------
 display:
-  - platform: rpi_dpi_rgb
+  - platform: mipi_rgb
+    model: custom
+    init_sequence: []
     id: my_display
     color_order: RGB
-    invert_colors: True
+    invert_colors: true
     update_interval: 2s
     auto_clear_enabled: false # takes 2.8 seconds to clear the display
     rotation: 0
@@ -118,7 +120,8 @@ display:
     hsync_pin: 39
     vsync_pin: 41
     pclk_pin: 42
-    pclk_frequency: 16000000
+    pclk_frequency: 16MHz
+    pclk_inverted: true
     hsync_front_porch: 40
     hsync_pulse_width: 48
     hsync_back_porch: 128
