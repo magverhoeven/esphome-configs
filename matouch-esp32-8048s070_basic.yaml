@@ -280,7 +280,7 @@ lvgl:
 # Graphics and Fonts
 #-------------------------------------------
 image:
-  - file: https://esphome.io/_static/logo-text-on-light.svg
+  - file: https://esphome.io/images/logo.svg
     id: boot_logo
     resize: 460x90
     type: RGB565
